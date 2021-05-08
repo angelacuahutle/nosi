@@ -1,0 +1,172 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+}
+body {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f8f3eb 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f3eb)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#f8f3eb 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%,#f8f3eb 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%,#f8f3eb 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%,#f8f3eb 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f3eb',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: Asap, sans-serif;
+  color: #e0b76e;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 3px solid;
+  text-shadow: 0 0 0 #bf55bf;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.rules a:hover {
+  text-shadow: 0 0 10px #bf55bf;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.darkbrown {
+  color: #443603;
+}
+
+.purple {
+  color: #bf55bf;
+}
+
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background: #f51818;
+  background-image: -webkit-linear-gradient(top, #f51818, #bf1919);
+  background-image: -moz-linear-gradient(top, #f51818, #bf1919);
+  background-image: -ms-linear-gradient(top, #f51818, #bf1919);
+  background-image: -o-linear-gradient(top, #f51818, #bf1919);
+  background-image: linear-gradient(to bottom, #f51818, #bf1919);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline:none;
+}
+
+.btn:hover {
+  background: #cf1414;
+  background-image: -webkit-linear-gradient(top, #cf1414, #a81818);
+  background-image: -moz-linear-gradient(top, #cf1414, #a81818);
+  background-image: -ms-linear-gradient(top, #cf1414, #a81818);
+  background-image: -o-linear-gradient(top, #cf1414, #a81818);
+  background-image: linear-gradient(to bottom, #cf1414, #a81818);
+  text-decoration: none;
+}
+
+#myringproject {
+  display: none;
+  padding-bottom: 40px;
+}
+
+#rules {
+  position: relative;
+  display: table;
+  width: 80%;
+  max-width: 768px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 36px;
+}
+
+#rules p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#record {
+  margin-bottom: 20px;
+}
+
+#recordings {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#recordings .recording {
+  line-height: 30px;
+  height: 30px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+#recordings .recording p {
+  line-height: 30px;
+  height: 30px;
+  width: 140px;
+  margin-right: 20px;
+  float: left;
+  margin: 0;
+  text-align: right;
+}
+
+#recordings .recording audio {
+  width: 320px;
+  float: right;
+}
+
+#oooo {
+  width: 180px;
+  display: block;
+  margin: 20px auto;
+}
+
+#do {
+  overflow: hidden;
+  margin: 40px auto;
+  width: 960px;
+}
+
+#do .col {
+  float: left;
+  width: 480px;
+  border: 1px solid #e0b76e;
+  border-top: none;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+
+#do .col:first-child {
+  border-left: none;
+}
+
+#do .col:last-child {
+  border-right: none;
+  margin-left: -1px;
+}
+
+.spin {
+  -webkit-animation:spin 40s linear infinite;
+  -moz-animation:spin 40s linear infinite;
+  animation:spin 40s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
